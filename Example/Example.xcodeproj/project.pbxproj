@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B66AEAC12426BE1C00E245B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66AEAC02426BE1C00E245B1 /* AppDelegate.swift */; };
-		B66AEAC32426BE1C00E245B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66AEAC22426BE1C00E245B1 /* SceneDelegate.swift */; };
 		B66AEAC52426BE1C00E245B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66AEAC42426BE1C00E245B1 /* ViewController.swift */; };
 		B66AEAC82426BE1C00E245B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B66AEAC62426BE1C00E245B1 /* Main.storyboard */; };
 		B66AEACA2426BE1D00E245B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B66AEAC92426BE1D00E245B1 /* Assets.xcassets */; };
@@ -20,7 +19,6 @@
 /* Begin PBXFileReference section */
 		B66AEABD2426BE1C00E245B1 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66AEAC02426BE1C00E245B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B66AEAC22426BE1C00E245B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B66AEAC42426BE1C00E245B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B66AEAC72426BE1C00E245B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B66AEAC92426BE1D00E245B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,7 +61,6 @@
 				B66AEAD52426BE4100E245B1 /* PulsingButton.swift */,
 				B66AEAD42426BE4100E245B1 /* PulsingLayer.swift */,
 				B66AEAC02426BE1C00E245B1 /* AppDelegate.swift */,
-				B66AEAC22426BE1C00E245B1 /* SceneDelegate.swift */,
 				B66AEAC42426BE1C00E245B1 /* ViewController.swift */,
 				B66AEAC62426BE1C00E245B1 /* Main.storyboard */,
 				B66AEAC92426BE1D00E245B1 /* Assets.xcassets */,
@@ -148,7 +145,6 @@
 				B66AEAC52426BE1C00E245B1 /* ViewController.swift in Sources */,
 				B66AEAD72426BE4100E245B1 /* PulsingButton.swift in Sources */,
 				B66AEAC12426BE1C00E245B1 /* AppDelegate.swift in Sources */,
-				B66AEAC32426BE1C00E245B1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6WLV67D2QG;
 				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6WLV67D2QG;
 				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
