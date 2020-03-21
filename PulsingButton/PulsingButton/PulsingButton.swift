@@ -39,6 +39,8 @@ public class PulsingButton: UIButton{
 	}
 
 	public var pulsingColor: UIColor = .white
+	public var pulsingOnBegin = true
+	public var pulsingOnEnd   = true
 	
 	public var onAnimationsCompleted: (() -> Void)?
 
@@ -79,7 +81,9 @@ public class PulsingButton: UIButton{
 			}
 		}
 		self.transform = self.transform.scaledBy(x: 1.4, y: 1.4)
-		helper.addPulsingAnimation()
+		if pulsingOnBegin {
+			helper.addPulsingAnimation()
+		}
 		super.touchesBegan(touches, with: event)
 	}
 	
@@ -100,8 +104,9 @@ public class PulsingButton: UIButton{
 									})
 								}
 							})
-		
-		helper.addPulsingAnimation()
+		if pulsingOnEnd {
+			helper.addPulsingAnimation()
+		}
 		super.touchesEnded(touches, with: event)
 	}
 }
