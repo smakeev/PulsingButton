@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "PulsingButton"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Pulsing animation for any UIView layer and a Button with pulsing animation and this layer"
   s.description  = "See README.md for more information"
   s.homepage     = "https://github.com/smakeev/PulsingButton"
