@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		B66AEAAA2426AADC00E245B1 /* PulsingButton.h in Headers */ = {isa = PBXBuildFile; fileRef = B66AEAA82426AADC00E245B1 /* PulsingButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B66AEAB12426AC0C00E245B1 /* PulsingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66AEAB02426AC0C00E245B1 /* PulsingLayer.swift */; };
+		B66AEAB32426B47D00E245B1 /* PulsingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66AEAB22426B47D00E245B1 /* PulsingButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B66AEAA52426AADC00E245B1 /* PulsingButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PulsingButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66AEAA82426AADC00E245B1 /* PulsingButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PulsingButton.h; sourceTree = "<group>"; };
 		B66AEAA92426AADC00E245B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B66AEAB02426AC0C00E245B1 /* PulsingLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulsingLayer.swift; sourceTree = "<group>"; };
+		B66AEAB22426B47D00E245B1 /* PulsingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulsingButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			children = (
 				B66AEAA82426AADC00E245B1 /* PulsingButton.h */,
 				B66AEAA92426AADC00E245B1 /* Info.plist */,
+				B66AEAB02426AC0C00E245B1 /* PulsingLayer.swift */,
+				B66AEAB22426B47D00E245B1 /* PulsingButton.swift */,
 			);
 			path = PulsingButton;
 			sourceTree = "<group>";
@@ -95,6 +101,7 @@
 				TargetAttributes = {
 					B66AEAA42426AADC00E245B1 = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -131,6 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B66AEAB32426B47D00E245B1 /* PulsingButton.swift in Sources */,
+				B66AEAB12426AC0C00E245B1 /* PulsingLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +269,7 @@
 		B66AEAAE2426AADC00E245B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 6WLV67D2QG;
@@ -276,6 +286,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.someprojects.PulsingButton;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +295,7 @@
 		B66AEAAF2426AADC00E245B1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 6WLV67D2QG;
